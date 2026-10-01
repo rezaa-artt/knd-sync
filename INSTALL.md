@@ -2,12 +2,25 @@
 
 ## 1. Package plugins
 
-From the repository root, create two ZIPs:
+Use the ready packages in `dist/`:
 
-- `knd-sync-receiver.zip` containing `knd-sync-receiver/`
-- `knd-sync-sender.zip` containing `knd-sync-sender/`
+- `dist/knd-sync-receiver.zip`
+- `dist/knd-sync-sender.zip`
 
-The ZIP root must be the plugin directory (so WordPress sees `knd-sync-receiver/knd-sync-receiver.php`).
+Or rebuild safely:
+
+```powershell
+powershell -File scripts/build-zips.ps1
+```
+
+**Important:** Do **not** use Windows Explorer “Send to compressed folder” or PowerShell `Compress-Archive` for these plugins. They store paths with `\`, and WordPress then shows **Plugin file does not exist.**
+
+Correct ZIP layout (forward slashes):
+
+```text
+knd-sync-receiver/knd-sync-receiver.php
+knd-sync-sender/knd-sync-sender.php
+```
 
 ## 2. Install Receiver on KND Home
 
