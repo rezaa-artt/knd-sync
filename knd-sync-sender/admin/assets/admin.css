@@ -1,0 +1,38 @@
+.knd-sync-wrap .knd-sync-status-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-left: 4px solid #2271b1;
+	padding: 12px 16px;
+	margin: 16px 0;
+	max-width: 920px;
+}
+
+.knd-sync-wrap .knd-sync-warning,
+.knd-sync-warning {
+	color: #8a6d3b;
+	background: #fcf8e3;
+	padding: 8px 10px;
+	border-left: 3px solid #f0ad4e;
+}
+
+.knd-sync-wrap .knd-level {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.knd-sync-wrap .knd-level-success { background: #d1e7dd; color: #0f5132; }
+.knd-sync-wrap .knd-level-info { background: #cff4fc; color: #055160; }
+.knd-sync-wrap .knd-level-warning { background: #fff3cd; color: #664d03; }
+.knd-sync-wrap .knd-level-error { background: #f8d7da; color: #842029; }
+
+.knd-sync-preview-box {
+	max-height: 220px;
+	overflow: auto;
+	background: #f6f7f7;
+	padding: 8px;
+	font-size: 11px;
+	white-space: pre-wrap;
+}

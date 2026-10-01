@@ -1,0 +1,21 @@
+.knd-sync-wrap .knd-sync-status-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-left: 4px solid #2271b1;
+	padding: 12px 16px;
+	margin: 16px 0;
+	max-width: 920px;
+}
+
+.knd-sync-wrap .knd-level {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.knd-sync-wrap .knd-level-success { background: #d1e7dd; color: #0f5132; }
+.knd-sync-wrap .knd-level-info { background: #cff4fc; color: #055160; }
+.knd-sync-wrap .knd-level-warning { background: #fff3cd; color: #664d03; }
+.knd-sync-wrap .knd-level-error { background: #f8d7da; color: #842029; }
